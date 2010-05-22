@@ -1,1 +1,1 @@
-require "haml/filters/coffee"
+require 'lib/coffee-haml-filter'
