@@ -35,7 +35,12 @@ will render:
     //]]>
   </script>
   
-  
+== Coffee not in path
+
+If you need to specify the path to coffee you can, eg. coffee installed with homebrew:
+
+Haml::Filters::Coffee.coffee_path = "/usr/local/bin/node /usr/local/bin/coffee"
+
 == Also:
 
 Take a look at {BistroCar}[http://github.com/jnicklas/bistro_car] - global solution for serving CoffeeScript inside your Rails application.
