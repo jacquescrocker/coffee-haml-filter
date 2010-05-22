@@ -1,6 +1,6 @@
 = CoffeeHamlFilter
 
-* http://github.com/inem/coffee-haml-filter
+* http://github.com/aussiegeek/coffee-haml-filter
 
 == Description:
 
@@ -9,9 +9,7 @@ inside your {Haml}[http://github.com/nex3/haml] templates.
 
 == Install:
 
-Add it as a gem dependency to you Rails application:
-
-    script/plugin install git://github.com/gerad/coffee-haml-filter.git
+Install the gem, on rails 3 just add to your Gemfile
 
 == Requirements:
 
@@ -35,7 +33,7 @@ will render:
     //]]>
   </script>
   
-== Coffee not in path
+== Coffee Not in Path
 
 If you need to specify the path to coffee you can, eg. coffee installed with homebrew:
 
@@ -43,12 +41,13 @@ Haml::Filters::Coffee.coffee_path = "/usr/local/bin/node /usr/local/bin/coffee"
 
 == Also:
 
-Take a look at {BistroCar}[http://github.com/jnicklas/bistro_car] - global solution for serving CoffeeScript inside your Rails application.
+See {bistro}[http://github.com/sutto/barista] for automatic Coffee script generation on Rails 3
   
 == License:
 
 (The MIT License)
 
+Copyright (c) 2010 Alan Harper
 Copyright (c) 2050 Ivan Nemytchenko
 
 Permission is hereby granted, free of charge, to any person obtaining
